@@ -35,7 +35,43 @@ a{
     position: relative;
     display: inline-block;
     
-    top: 30%;
+    top: 25%;
     left: 25%;
 }
 
+/** configures page-nav **/
+.page-nav{
+    position: relative;
+    display: inline-block;
+    
+    top: 25%;
+}
+
+
+.page-nav-links{
+    margin-left: 31.25%;
+}
+
+/** configures nav **/
+.nav-link{
+    display: inline-block;
+    
+    width: 12.5%;
+}
+
+.nav-figure{
+    width: 100%;
+    
+    background: #111;
+    
+    border-radius: 50%;
+}
+
+.nav-figure img{
+    width: 100%;
+}
+
+.nav-figure figcaption{
+    text-align: center;
+    display: none;
+}
