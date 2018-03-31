@@ -34,31 +34,31 @@ a{
 
 #astro-main{
     display: block;
-    background: url("../img/background.jpg");
+    background: url("../img/images/background.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 #astro-gravity{
-    background: url("../img/planet.jpg");
+    background: url("../img/images/planet.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 #astro-light{
-    background: url("../img/optics.jpg");
+    background: url("../img/images/optics.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 #astro-distances{
-    background: url("../img/perspective.jpg");
+    background: url("../img/images/perspective.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 #astro-stars{
-    background: url("../img/night.jpg");
+    background: url("../img/images/night.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
