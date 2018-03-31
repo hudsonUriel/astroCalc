@@ -3,6 +3,5 @@ window.onload = window.onresize = function(){
     
     for(i=0; i<astrocalc.length; i++){
         astrocalc[i].style.height = window.innerHeight + "px";
-        console.log(window.innerHeight);
     }
 }
