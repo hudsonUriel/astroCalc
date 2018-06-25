@@ -1,0 +1,189 @@
+/** resets the navigator **/
+*{
+    margin: 0;
+    padding: 0;
+    
+    color: #eee;
+    
+    font-family: sans-serif;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/** fonts **/
+@font-face{
+    font-family: "Bloklins";
+    src: url('../fonts/bloklinks-angular.woff');
+}
+
+@font-face{
+    font-family: "Lerotica";
+    src: url('../fonts/lerotica-regular.woff');
+}
+
+/** configures the astroCalc class **/
+.astrocalc{
+    width: 100%;
+}
+
+#astro-main{
+    display: block;
+    background: url("../img/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#astro-gravity{
+    background: url("../img/images/planet.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#astro-light{
+    background: url("../img/images/optics.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#astro-distances{
+    background: url("../img/images/perspective.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#astro-stars{
+    background: url("../img/images/night.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/** configures logo **/
+#logo-img{
+    width: 50%;
+    height: auto;
+    
+    position: relative;
+    display: inline-block;
+    
+    top: 25%;
+    left: 25%;
+}
+
+/** configures page-nav **/
+.page-nav{
+    width: 100%;
+    
+    position: relative;
+    
+    display: inline-block;
+    
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.page-nav a{
+    font-family: "Lerotica";
+}
+
+#astro-nav{
+    top: 25%;
+}
+
+/** configures nav **/
+.nav-link{
+    width: 20%;
+    margin-left: 40%;
+}
+
+.nav-link a{
+    display: inline-block;
+    
+    width: 100%;
+}
+
+/** configures section-header and section-figure **/
+.section-figure{
+    width: 25%;
+    position: relative;
+    
+    margin-left: 37.5%;
+    
+    padding-top: 1%;
+    margin-bottom: 2%;
+}
+
+.section-figure img{
+    display: block;
+    position: absolute;
+    
+    width: 25%;
+}
+
+.section-figure figcaption{
+    display: block;
+    
+    text-align: center;
+    
+    font-family: "Bloklins";
+    font-size: 2em;
+    
+    border-bottom: solid .05em #eee;
+}
+
+/** configures each section-figure **/
+/** GRAVITY **/
+#astro-gravity img{
+    width: 28%;
+    
+    top: 7.5%;
+    left: -7.5%;
+}
+
+#astro-gravity figcaption{
+    border-bottom-color: #e00;
+}
+
+/** LIGHT **/
+
+#astro-light img{
+    width: 35%;
+    
+    top: 2%;
+    left: -12%;
+}
+
+#astro-light figcaption{
+    border-bottom-color: #96e6fa;
+}
+
+/** DISTANCES **/
+
+#astro-distances img{
+    width: 32%;
+    
+    top: 7.5%;
+    left: -17%;
+}
+
+#astro-distances figcaption{
+    border-bottom-color: #7f2aff;
+}
+
+/** DISTANCES **/
+
+#astro-stars img{
+    width: 35%;
+    
+    top: 18%;
+    left: -10%;
+}
+
+#astro-stars figcaption{
+    border-bottom-color: #ee8800;
+}
